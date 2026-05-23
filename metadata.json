@@ -1,0 +1,6 @@
+{
+  "name": "Koperatif.id",
+  "description": "Sistem Informasi Koperasi Sekolah Terintegrasi dengan fitur Simpan Pinjam, POS Inventaris, dan Marketplace Digital.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Custom Colors for Koperatif.id */
+  --color-deep-blue: #0A1931;
+  --color-electric-blue: #185ADB;
+  --color-sky-blue: #00BFFF;
+  --color-surface: #F8FAFC;
+}
+
+body {
+  @apply font-sans bg-surface text-slate-900;
+}
+
+.gradient-blue {
+  @apply bg-linear-to-r from-[var(--color-deep-blue)] to-[var(--color-electric-blue)];
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+}
+
